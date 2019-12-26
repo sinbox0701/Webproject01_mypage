@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+#center {
+	text-align: center;
+}
+#topMenu {  
+	height:30px;  
+	width:850px; 	
+	margin-left:25%;
+}
+
+#topMenu ul li {
+	list-style:none;  
+	color:white; 
+	background-color:#2d2d2d;
+	float:left; 
+	line-height:30px; 
+	vertical-align:middle; 	
+	text-align:center;
+	cursor: pointer;
+	
+}
+
+#topMenu .menuLink { 
+	text-decoration:none; 
+	color:white;
+	display:block;
+	width:150px;
+	font-size:12px; 
+	font-weight:bold; 
+	font-family:"Trebuchet MS", Dotum, Arial;
+	
+}
+
+#topMenu .menuLink:hover {
+	color:red; 
+	background-color:#4d4d4d;	
+}
+
+.uLink{
+	margin-left:35%;
+}
+
+.uLink li {
+	list-style:none;  
+	color:white; 
+	background-color:#44eda4;
+	float:left; 
+	line-height:100px;
+	margin: 10px 10px; 
+	vertical-align:middle;
+	cursor: pointer; 	
+	text-align:center;
+	
+}
+
+.link1 { 
+	text-decoration:none; 
+	color:white;
+	display:block;
+	width:150px;	
+	font-size:12px; 
+	font-weight:bold; 
+	font-family:"Trebuchet MS", Dotum, Arial;
+}
+h2, p{
+	margin: 10px 20px;
+}
+#apple{
+	height:500px;
+}
+#apple img {
+	margin: 30px 10px;
+	width:300px;
+	float:left;
+}
+footer {
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 100%;
+
+	padding: 15px 0;
+	
+	text-align: center;
+}
